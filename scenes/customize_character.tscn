@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0cg451asnelf"]
+
+[ext_resource type="Script" path="res://scenes/customize_character.gd" id="1_jurpt"]
+[ext_resource type="PackedScene" uid="uid://cwhdrraow7hww" path="res://scenes/ball.tscn" id="1_r41lw"]
+
+[node name="CustomizeCharacter" type="Window"]
+auto_translate_mode = 1
+title = "Customize your Ball"
+initial_position = 1
+size = Vector2i(500, 500)
+visible = false
+script = ExtResource("1_jurpt")
+
+[node name="ball" parent="." instance=ExtResource("1_r41lw")]
+position = Vector2(150, 200)
+scale = Vector2(2, 2)
+
+[node name="FileDialog" type="FileDialog" parent="."]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(504, 500)
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png, *.jpg, *.jpeg")
+
+[node name="Upload" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "UPLOAD"
+
+[connection signal="close_requested" from="." to="." method="_on_close_requested"]
+[connection signal="file_selected" from="FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="pressed" from="Upload" to="." method="_on_upload_pressed"]

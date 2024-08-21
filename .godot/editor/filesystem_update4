@@ -1,0 +1,8 @@
+res://scenes/main_menu.tscn
+res://scenes/customize_character.tscn
+res://scenes/ball.tscn
+res://scenes/Level0.tscn
+res://scenes/ball.gd
+res://scenes/customize_character.gd
+res://scenes/ball_appearance.gd
+res://scenes/ball_appearance.tscn

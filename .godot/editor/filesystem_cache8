@@ -1,0 +1,35 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1724265063
+GlobalData.gd::GDScript::-1::1724257923::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::7221632467255945671::1724250469::1724250604::1::::<><>::
+README.md::TextFile::-1::1724250558::0::1::::<><>::
+::res://assets/::1724251997
+ball_blue_large.png::CompressedTexture2D::8638764020538380180::1724251615::1724251616::1::::<><>::
+Terrain (16x16).png::CompressedTexture2D::1090167653980347818::1724251634::1724251634::1::::<><>::
+::res://assets/background/::1724251293
+Blue.png::CompressedTexture2D::4740105069182207529::1724251110::1724251293::1::::<><>::
+Brown.png::CompressedTexture2D::4668507640683158371::1724251110::1724251293::1::::<><>::
+Gray.png::CompressedTexture2D::7662979989818331697::1724251110::1724251293::1::::<><>::
+Green.png::CompressedTexture2D::6299208930917258525::1724251110::1724251293::1::::<><>::
+Purple.png::CompressedTexture2D::5394127624299576554::1724251110::1724251293::1::::<><>::
+Yellow.png::CompressedTexture2D::8406546386875728114::1724251110::1724251293::1::::<><>::
+::res://assets/buttons/::1724251997
+::res://assets/fruits/::1724251293
+Apple.png::CompressedTexture2D::6535177404334606080::1724251233::1724251293::1::::<><>::
+Bananas.png::CompressedTexture2D::1278514490465074343::1724251233::1724251293::1::::<><>::
+Cherries.png::CompressedTexture2D::7633528083656392400::1724251233::1724251293::1::::<><>::
+Collected.png::CompressedTexture2D::3925631925075210166::1724251233::1724251293::1::::<><>::
+Kiwi.png::CompressedTexture2D::5102081336546468640::1724251233::1724251293::1::::<><>::
+Melon.png::CompressedTexture2D::7144440078014993449::1724251233::1724251293::1::::<><>::
+Orange.png::CompressedTexture2D::8193507810534160398::1724251233::1724251293::1::::<><>::
+Pineapple.png::CompressedTexture2D::1639494374510691696::1724251233::1724251293::1::::<><>::
+Strawberry.png::CompressedTexture2D::5117357584458856120::1724251233::1724251293::1::::<><>::
+::res://scenes/::1724266012
+ball.gd::GDScript::-1::1724265509::0::1::::<>RigidBody2D<>::
+ball.tscn::PackedScene::6331659974739729982::1724265509::0::1::::<><>::uid://dvcxgfs8yn7ee::::res://assets/ball_blue_large.png<>res://scenes/ball.gd
+block_corner_large.png::CompressedTexture2D::3623142480942023101::1724266012::1724266012::1::::<><>::
+block_square.png::CompressedTexture2D::2597422245390034932::1724266012::1724266012::1::::<><>::
+customize_character.gd::GDScript::-1::1724264418::0::1::::<>Window<>::
+customize_character.tscn::PackedScene::6532108919714961171::1724265817::0::1::::<><>::res://scenes/customize_character.gd<>uid://cwhdrraow7hww::::res://scenes/ball.tscn
+Level0.tscn::PackedScene::4056615252125961429::1724265482::0::1::::<><>::uid://b8se3qw3v0s7j::::res://assets/background/Blue.png<>uid://psc5wxv101hm::::res://assets/Terrain (16x16).png<>uid://cwhdrraow7hww::::res://scenes/ball.tscn
+main_menu.tscn::PackedScene::6629002863655340179::1724265847::0::1::::<><>::uid://b8se3qw3v0s7j::::res://assets/background/Blue.png<>uid://c0cg451asnelf::::res://scenes/customize_character.tscn<>uid://psc5wxv101hm::::res://assets/Terrain (16x16).png<>uid://cwhdrraow7hww::::res://scenes/ball.tscn
